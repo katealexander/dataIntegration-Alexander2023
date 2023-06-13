@@ -16,7 +16,7 @@ As another method to compare SON signal to speckle signature group gene expressi
 In this case, I am extracting the HIF2A target genes, called "HIF2Atargets_MCF7_786O_combined.txt"
 
 # R session info
-<img src="https://github.com/katealexander/dataIntegration-Alexander2023/images/RsessionInfo_speckleAssociationWithSpeckleSignature.png" alt="drawing" width="500"/>
+<img src="https://github.com/katealexander/dataIntegration-Alexander2023/blob/main/images/RsessionInfo_%20speckleAssociationWithSpeckleSignature.png" alt="drawing" width="500"/>
 
 
 

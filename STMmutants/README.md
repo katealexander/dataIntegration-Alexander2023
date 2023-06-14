@@ -24,7 +24,7 @@ Files generated:
 - DPMvsRTTAfc_SONquintiles.pdf and 1A2AvsRTTAfc_SONquintiles.pdf - boxplots of HIF2A target genes split based on speckle association status (quintile 5 is the most speckle associated, quintile 1 is the least speckle associated). Y-axis is the log2 fold change of either HIF2A-wtSTMs (DPM) or HIF2A-mutSTMs (1a2a) versus HIF2A null (RTTA).
 
 # R session info
-<img src="https://github.com/katealexander/dataIntegration-Alexander2023/blob/main/images/RsessionInfo_%STMmutants.png" alt="drawing" width="500"/>
+<img src="https://github.com/katealexander/dataIntegration-Alexander2023/blob/main/images/RsessionInfo_STMmutants.png" alt="drawing" width="500"/>
 
 
 

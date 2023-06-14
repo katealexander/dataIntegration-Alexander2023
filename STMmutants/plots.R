@@ -3,7 +3,6 @@ library(ggplot2)
 library(viridis)
 library(dplyr)
 library(ggpubr)
-library(pheatmap)
 
 A <- read.table("foldChangesFormattedForPlot.txt", header=T, row.names = "Gene")
 

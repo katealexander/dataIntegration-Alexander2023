@@ -3,6 +3,7 @@ This repository provides the details of how I integrated [speckle signature](htt
 
 # Requirements
 Python 2.7
+
 R - see session info in each subsection
 
 # General approach
@@ -12,15 +13,15 @@ To assess relationships between datasets, I used two general approaches:
 
 # Analyses
 
-###STMmutants
+### STMmutants
 
 STMmutants shows how expression data from a tissue culture experiemnt with HIF2A null, HIF2A-wtSTMs and HIF2A-mutSTMs was integrated with speckle association cell line genomic data and speckle signature TCGA data
 
-###speckleAssociationWithSpeckleSignature
+### speckleAssociationWithSpeckleSignature
 
 speckleAssociationWithSpeckleSignature provides instructions for integrating SON genomics signal with TCGA speckle signature biases in gene expression
 
-###ALYREFknockdown
+### ALYREFknockdown
 
 # Generating file with speckle signature and speckle association data
 A file, "medianGeneExpression_KIRC_specklepatientGroups_withSONsignal.txt", containing gene-level data on speckle signature and SON TSA-seq diffBind normalized counts was generated using the following script and used throughout these analyses:

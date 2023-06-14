@@ -4,7 +4,7 @@
 import sys, os, re
 
 def main(args):
-    if not len(args) == 3: sys.exit("USAGE: python getGenes.py HIF2Atargets_MCF7_786O_combined.txt ../medianGeneExpression_KIRC_specklepatientGroups_withSONsignal.txt > medianGeneExpression_KIRC_HIF2Atargs.txt")
+    if not len(args) == 3: sys.exit("USAGE: python getGenes.py ../HIF2Atargets_MCF7_786O_combined.txt ../medianGeneExpression_KIRC_specklepatientGroups_withSONsignal.txt > medianGeneExpression_KIRC_HIF2Atargs.txt")
 
     #read geneList into dictionary
     gl = open(args[1]); line = gl.readline()

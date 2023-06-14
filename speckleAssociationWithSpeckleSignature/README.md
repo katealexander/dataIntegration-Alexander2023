@@ -13,7 +13,7 @@ As another method to compare SON signal to speckle signature group gene expressi
 
 ```python getGenes.py HIF2Atargets_MCF7_786O_combined.txt ../medianGeneExpression_KIRC_specklepatientGroups_withSONsignal.txt > medianGeneExpression_KIRC_HIF2Atargs.txt```
 
-In this case, I am extracting the HIF2A target genes, called "HIF2Atargets_MCF7_786O_combined.txt"
+In this case, I am extracting the HIF2A target genes, called "HIF2Atargets_MCF7_786O_combined.txt". After getting this list, I further pruned it to only include genes that were more highly expressind in ccRCC tumor versus normal adjacent tissue (log2ratio SigI/N and SigII/N > 0, and p-value of either less than 0.05)
 
 # R session info
 <img src="https://github.com/katealexander/dataIntegration-Alexander2023/blob/main/images/RsessionInfo_%20speckleAssociationWithSpeckleSignature.png" alt="drawing" width="500"/>

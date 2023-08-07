@@ -6,8 +6,8 @@ import sys, re
 def main(args):
     if len(args) != 7: sys.exit("USAGE: python formatFoldChangesForPlots.py ../HIF2Atargets_MCF7_786O_combined.txt speckleChangingGenes_C&RorTSA DPMvs1A2A.txt ../medianGeneExpression_KIRC_specklepatientGroups_withSONsignal.txt RTTAvsDPM.txt RTTAvs1A2A.txt > outFile.txt")
     
-    padjCutoff = 0.05
-    foldChangeCutoff = 0.2
+    padjCutoff = 0.1
+    foldChangeCutoff = 0.0
     
     
     f = open(args[1])

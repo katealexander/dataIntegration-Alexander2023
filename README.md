@@ -19,7 +19,7 @@ STMmutants shows how expression data from a tissue culture experiemnt with HIF2A
 speckleAssociationWithSpeckleSignature provides instructions for integrating SON genomics signal with TCGA speckle signature biases in gene expression
 
 ### ALYREFknockdown
-ALYREFknockdown describeshow to integrate knockdown data with speckle association and speckle signature data.
+ALYREFknockdown describes how to integrate knockdown data with speckle association and speckle signature data.
 
 # Generating file with speckle signature and speckle association data
 A file, "medianGeneExpression_KIRC_specklepatientGroups_withSONsignal.txt", containing gene-level data on speckle signature and SON TSA-seq diffBind normalized counts was generated using the following script and used throughout these analyses:
